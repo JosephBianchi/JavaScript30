@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
+  background: url(https://static.pexels.com/photos/457445/pexels-photo-457445.jpeg) bottom center;
   background-size: cover;
 }
 body,html {
@@ -18,12 +18,12 @@ body,html {
 }
 
 .key {
-  border: .4rem solid black;
+  border: .4rem solid green;
   border-radius: .5rem;
   margin: 1rem;
   font-size: 1.5rem;
   padding: 1rem .5rem;
-  transition: all .07s ease;
+  transition: all .20s ease;
   width: 10rem;
   text-align: center;
   color: white;
@@ -31,9 +31,10 @@ body,html {
   text-shadow: 0 0 .5rem black;
 }
 
+
 .playing {
-  transform: scale(1.1);
-  border-color: #ffc600;
+  transform: scale(3.5) rotate(360deg) translateY(100px);
+  border-color: red;
   box-shadow: 0 0 1rem #ffc600;
 }
 
